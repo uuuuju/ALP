@@ -1,5 +1,3 @@
-Transfer a byte of data from DS:2020 <- DS:2010
-
 MOV BX, 2000H
 MOV DI, 10H
 MOV AL, [BX+DI]
