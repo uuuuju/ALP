@@ -6,7 +6,7 @@ MOV CL,06
 MOV BL,00
 CLC
 
-X1: MOV AL'[SI]
+X1: MOV AL,[SI]
     ADC [DI],AL
     INC SI
     INC DI
